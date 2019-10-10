@@ -1,0 +1,6 @@
+version: "1.0"
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb-server
+    ports: 27017:27017
