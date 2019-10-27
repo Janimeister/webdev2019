@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Load the js file -->
+  <script src="./client.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <title>Urheilijat II -tehtävä</title>
+</head>
+<body onLoad="loadApp()">
+  <div id="lomake">
+    <form>
+      <fieldset>
+          <legend>Lomake urheilijoiden tietojen lataamiseen</legend>
+          <button id="lataa">Lataa urheilijat</button>
+      </fieldset>
+    </form>
+  </div>
+    <!-- Under this div is the table created!!! -->
+  <div id="urheilijat">
+  </div>
+  
+  <!-- Simple tests which can be run on the Postman!!! -->
+  <p>Klikkaa alla olevaa painiketta yksinkertaisten palvelimen yksikkötestien tarkastelemiseksi ja suorittamiseksi (Tests -välilehden alla Postmanissa)</p>
+  <div class="postman-run-button"
+  data-postman-action="collection/import"
+  data-postman-var-1="a9db34e896d74a808e9a"></div>
+  <script type="text/javascript">
+    (function (p,o,s,t,m,a,n) {
+      !p[s] && (p[s] = function () { (p[t] || (p[t] = [])).push(arguments); });
+      !o.getElementById(s+t) && o.getElementsByTagName("head")[0].appendChild((
+        (n = o.createElement("script")),
+        (n.id = s+t), (n.async = 1), (n.src = m), n
+      ));
+    }(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"));
+  </script>
+</body>
+</html>

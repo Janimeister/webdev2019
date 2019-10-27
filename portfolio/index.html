@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Freelancer - Start Bootstrap Theme</title>
+
+  <!-- Custom fonts for this theme -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Theme CSS -->
+  <link href="css/freelancer.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="#page-top">Jani Heikkinen - Portfolio</a>
+          <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Tehtävät</a>
+              </li>        
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                  <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#palaute">Palaute</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+  <!-- Masthead -->
+  <header class="masthead bg-primary text-white text-center">
+      <div class="container d-flex align-items-center flex-column">
+  
+        <!-- Masthead Avatar Image -->
+        <img class="masthead-avatar mb-5" src="img/avataaars.svg" alt="">
+  
+        <!-- Masthead Heading -->
+        <h1 class="masthead-heading text-uppercase mb-0">Jani Heikkinen</h1>
+  
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="divider-custom-line"></div>
+        </div>
+  
+        <!-- Masthead Subheading -->
+        <p class="masthead-subheading font-weight-light mb-0">Tämä eportfolio avaa uudet sivut jokaiselle tehtävälle, mistä niitä pääsee käyttämään.
+          Niiden toimimiseksi, jokainen server.js tulee laittaa tulille (4 kpl. REST_MySQL, urheilijat2, react_app, tehtava6 kansioissa node server.js).
+          Lisäksi React-sovellusta varten tulee laittaa kehitysympäristö päälle (react-kansiossa npm start) ja tietokantojen tulee olla päällä tehtävänantojen mukaisesti (portit: 0.0.0.0:27017->27017/tcp   mongodb-server ja 0.0.0.0:3306->3306/tcp     mariadbtest).
+          <br><br>Blogi löytyy osoitteesta: https://hackmd.io/o1c0YqdtR4SakB2zTi4mUw?view
+          <br>ePortfoliossa käytän Freelancer-teemaa: https://startbootstrap.com/themes/freelancer/
+        </p>
+  
+      </div>
+    </header>
+
+      <!-- About Section -->
+  <section class="page-section bg-primary text-white mb-0" id="about">
+      <div class="container">
+  
+        <!-- About Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase text-white">Tehtävät</h2>
+  
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="divider-custom-line"></div>
+        </div>
+  
+        <!-- About Section Content -->
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <p class="lead">Tehtävä 1: Urheilijat1 tehtävässä tein ensimmäisen Javascript sovelluksen ja laitoin versionhallinnan kuntoon Gitlabiin. Javascriptiä kirjoittaessa seurasin Mozillan dokumentoitia Javascriptista. Gitlabin SSH-avainten kanssa meni jonkin aikaa, koska en ollut niitä ennen käyttänyt. Tämän tehtävän jälkeen kuitenkin opin kuinka se tehdään. Kaikki sujui tässä mielestäni hyvin, enkä muuttaisi toteutustani.</p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <p class="lead">Tehtävä 2: REST_MySQL tehtävässä tutustuin ensimmäistä kertaa kunnolla REST rajapintoihin. Aikaisemmin olen vain hieman lueskellut niistä, mutta tässä tehtävässä pääsin käsittelemään niitä tosissaan. Tein MySQL tietokannan dockerin päälle. Olen töissä käyttänyt dockeria aika paljonkin, joten tietokannan pystyttäminen ei ollut vaikeaa. REST-rajapintojen tekemisessä sen sijaan oli jonkin verran vaikeuksia. Tehtävän aikana esiin tulleet ongelmat olivat laajuudeltaan aika pieniä, ja johtuivat lähinnä ajatusvirheestä kuinka palvelimelle tulee pyyntö tai kuinka se pitäisi käsitellä. Tehtävän aikana kysyin Slackissa neuvoa ja sieltä sainkin tosi hyvän vinkin tehtävän etenemiseen. Loppusessaan pikku juttu, mutta en itse sitä tajunnut. Opinkin tässä tehtävässä siis REST-rajapintojen käyttöä. Jos jotain tekisin toisin, niin muuttaisin SQL-lauseet palvelinpuolella parempaan muotoon. Tähän tehtävään nimittäin rakensin ne "käsin".</p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <p class="lead">Tehtävä 3: react app tehtävässä tein aikaisemmin tekemäni palvelinsovelluksen päälle ReactJS:n avulla käyttöliittymän. Aikaisempaa palvelinsovellusta jouduin päivittämään, kun huomasin tarvitsevani kaikkien tietojen palauttamista tietokannasta. Edellistä tehtävää varten olin nimittäin toteuttanut yhden tiedon hakemisen. Reactia en ollut ennen käyttänyt, joten tätä tehtävää tehdessä tuli opiskeltua paljon uutta. Kaikkien tietojen näyttämisessä oli jonkin verran ongelmia, mutta Slackia selatessa huomasin myös jollakulla muulla olleen sama ongelma. Siihen oli vastattu ja sama ratkaisu toimi myös minun toteutuksessani, jolloin pääsin jatkamaan tehtävää. Käyttöliittymän tekeminen sujui jokseenkin suoraviivaisesti ja lopputulokseen olen oikein tyytyväinen. Kun olin saanut komponentin valmiiksi, niin pystyin uudelleenkäyttämään aika paljon vanhaa tekemää koodiani. Tämä nopeutti tehtävän tekemistä aikalailla. Tehtävän aikana huomasin jonkin bugin REST-rajapintojen puolella kaatavan palvelimen. Tämä vaikuttaisi johtuneen virhetilanteesta SQL-kyselyssä, mutta en lähtenyt sitä korjaamaan koska se esiintyi sen verran harvinaisesti. Mitä olisin tehnyt toisin: hieman viilannut ulkoasua paremmaksi ja korjannut palvelimessa olleen bugin.</p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <p class="lead">Tehtävä 4: urheilijat2 tehtävässä tein kolmikerros-sovelluksen. Tämän tehtävän aikana tuli opittua uutta kaikista eniten muihin tehtäviin verrattuna. Kolmikerrospalvelimen idea oli hieman vieras ja lisäksi en ollut ennen käyttänyt mongoDB -tietokantaa. Tehtävän tekemisen aikana menikin jonkin verran aikaa, että pääsin kiinni siihen mitä tehtävässä haettiin. Lisäksi meni aikaa siihen, että pääsin kiinni annetun tehtävärungon sisältöön. Kuitenkin näin jälkikäteen voin sanoa, että tähän kannatti käyttää hyvin aikaa, koska sen jälkeen tehtä lähti etenemään hyvin. Tehtävän aikana haasteita tuli REST-rajapintojen tekemisessä. En saanut kunnolla debugattua, että missä vika oli ja siksi jumitin REST:n kanssa hyvän tovin. Kuitenkin hiljalleen toteutus eteni ja alun ongelmien jälkeen sain ensimmäiset arvot menemään tietokantaan. Tämän jälkeen tehtävän tekeminen eteni reippaasti ja sainkin loput REST-rajapinnat tehtyä sekä käyttöliittymän viilattua kuntoon. Tässä tehtävässä siis opin mongoose kirjaston ja mongodb tietokannan käyttöä. Jos jotain tekisin toisin, niin muokkaisin tietojen tulostamisen käyttäjälle nätimpään muotoon. Tällä hetkellä se nimittäin on aika karun näköinen, mutta ainakin se toimii.</p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <p class="lead">Tehtävä 5: ePortfolio tehtävässä loin valmiin Bootstrap-teeman päälle sähköisen portfolion tehtävistä. Tämän tekeminen oli mielestäni suhteellisen sujuvaa, koska teema oli rakennettu todella hyvin ja sen yksilöiminen oli siten helppoa. Kunhan ensin olin suunnitellut millaiseksi lähtisin sivua tekemään, niin se lähti etenemään nopeasti eteenpäin. Hieman eri tekstikappaleet tai linkit meinasivat aluksi pomppia minne sattuivat, mutta pienellä viilauksella ne sai pysymään kasassa. Kaiken kaikkiaan tämä meni ilman sen suurempia ongelmia. Olen tyytyväinen aikaan saamaani portfolioon, eikä ainakaan heti tule mieleen kuinka lähtisin sitä muokkaamaan.</p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+              <p class="lead">Tehtävä 6: Promise pohjaisessa tehtävässä tein kutsun yksinkertaiselle REST-api rajapinnalle, mistä palautettiin laivanupotuspelin mukaisesti 5x5 ruudukosta kolmen ruudun pituisen laivan sijainti. Käytin tehtävän logiikassa luennoilla esitettyä tapaa, eli laitoin taulukkoon kaikki mahdolliset laivan sijainnit ja hain sieltä satunnaisesti yhden sijainnin. Promise pohjaisia kutsuja on jonkin verran tullut töiden parissa käytettyä, eli tämä tehtävä ei ollut kovinkaan vaikea. Mielestäni tehtävä kuitenkin sopi hyvin viimeiseksi tehtäväksi, sillä samalla kuitenkin on työn alla ePortfolio ja niinpä tämä tehtävä ei liikaa kuormittanut tässä lopussa. En lähtenyt enää pohtimaan valinnaista käyttöiittymää laivan sijainnin näyttämiselle ja olen tyytyväinen nykyiseen ratkaisuun.</p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    
+  <!-- Portfolio Section -->
+  <section class="page-section portfolio" id="portfolio">
+    <div class="container">
+
+      <!-- Portfolio Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- Portfolio Grid Items -->
+      <div class="row">
+
+        <!-- Portfolio Item 1 -->
+        <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+                <a href ="">Tehtävä 1 ei käyttöliittymää/palvelinta, tiedosto löytyy: /portfolio/Urheilu _t1/Urheilu1.js</a>
+              </div>
+        </div>
+
+        <!-- Portfolio Item 2 -->
+        <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+                <a href ="http://localhost:4444/getall">Tehtävä 2: esimerkkinä /getall metodi</a>
+              </div>
+        </div>
+
+        <!-- Portfolio Item 3 -->
+        <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+                <a href ="http://localhost:3000/">Tehtävä 3: käyttöliittymä</a>
+              </div>
+        </div>
+
+        <!-- Portfolio Item 4 -->
+        <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+                <a href ="">Tehtävä 4: käyttöliittymä löytyy: /portfolio/urheilijat2/client/index.html</a>
+              </div>
+        </div>
+
+        <!-- Portfolio Item 5 -->
+        <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+                <a href ="">Tehtävä 5: Tarkastelet sitä =)</a>
+              </div>
+        </div>
+
+        <!-- Portfolio Item 6 -->
+        <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+                <a href ="http://localhost:3001/random">Tehtävä 6: laivan sijainnit</a>
+              </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+  </section>
+
+  <section class="page-section bg-primary text-black mb-0" id="palaute">
+      <div class="container">
+  
+        <!-- About Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase text-black">Palauteosio</h2>
+  
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-dark">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="divider-custom-line"></div>
+        </div>
+  
+        <!-- About Section Content -->
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <p class="lead">Lähtötilanteeseen verrattuna olen oppinut aika paljon uutta. Suurin oppiminen varmaankin on tapahtunut REST-apien puolella ja siinä, kuinka palvelinsovellusten kutsuja käsitellään ja vastaanotetaan. Tämän lisäksi olen oppinut uutta varsinkin MongoDB tietokannasta ja muutenkin syventänyt tietämystäni Javascriptin/CSS/HTML osalta</p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+              <p class="lead">Ajankäyttö kurssin laajuuteen suhteutettuna mielestäni on aikalailla mennyt yks yhteen. Jotkin asiat ovat olleet helpompia ja jotkin vaikeampia. Koko kurssin aikana olen kuitenkin monena iltana pähkäillyt tehtäviä suhteellisen pitkään, joten mielestäni kurssin sisältö oli hyvin toteutettu opintopisteisiin suhteutettuna.</p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+              <p class="lead">Oppimistani tukivat kurssin aikana annetut videomateriaalit YouTubesta ja muista lähteistä. Näiden lisäksi luentotallenteet ovat auttaneet merkittävästi oppimista kurssin aikana. Koska en itse päässyt livenä kuuntelemaan luentoja, niin tallenteet ovat olleet minulle todella hyviä. Niissä on ollut kätevä kun luentojen aikana ollut chat näkyy myös reaaliajassa. Oppimista häiritseviä asioita ei kyllä tule tähän hätään mieleen.</p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+              <p class="lead">Ohjausta tehtävien tekoon sain mielestäni hyvin luentotallenteiden kautta. Tämän lisäksi Slack on ollut erittäin hyvä tällä kurssilla. Pyysin siellä pariin otteeseen apua, ja muut kanssaopiskelijat vastasivat suhteellisen nopeasti niihin antamalla vinkkiä ongelmaan. En ole ennen ollut kurssilla, missä olisi ollut Slack tai vastaava viestittelysovellus käytössä ja täytyy sanoa, että se on ollut tällä kurssilla todella hyvä. Toivon että tulevillakin kurssilla sitä käytettäisiin, sillä sen käytön helppous kannustaa kysymään apua. Yliopiston kursseilla on ollut Moodlessa kysymys/keskuteluosio, mutta se ei ole läheskään yhtä hyvä kuin Slack.</p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+              <p class="lead">Kurssin kohokohdat ovat olleet ehdottomasti tilanteissa, kun REST-apeihin lähettämiini pyyntöihin on tullut juuri se vastaus mitä hainkin. Nämä hetket ovat tuntuneet palkitsevilta. Palvelinpuolelta varsinkin toivoin tämän kurssin osalta uuden oppimista ja sitä sainkin.</p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+              <p class="lead">Tämän kurssin aikana oppimiani asioita on tarkoitus syventää myös vapaa-ajalla. Kurssilla sai hyvän perustiedon käytyihin asioihin ja niistä on hyvä jatkaa. Opin paljon uutta ja uskon että niistä on apua myös työssäni.</p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+
+  <!-- Copyright Section -->
+  <section class="copyright py-4 text-center text-white">
+    <div class="container">
+      <small>Copyright &copy; Jani Heikkinen - Web Ohjelmointi 2019</small>
+    </div>
+  </section>
+
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-to-top d-lg-none position-fixed ">
+    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/freelancer.min.js"></script>
+
+</body>
+
+</html>

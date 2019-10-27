@@ -1,0 +1,21 @@
+version: "1.0"
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb-server
+    ports: 27017:27017
+    networks:
+        - athletes-network
+
+  server:
+    build: ./
+    container_name: athletes-server
+    depends_on:
+      - mongodb
+    ports:
+      - 8080:8080
+    networks:
+        - athlete-network
+
+networks:
+  athlete-network:
